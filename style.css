@@ -2,10 +2,10 @@
 
 body{
     background-image: url(imagens/fundo-madeira.jpg);
-    background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
+    background-position: center center;
+   background-size:cover;
+    background-repeat: no-repeat;
+   background-attachment:fixed
 }
 .boton{
     position: fixed;
@@ -50,28 +50,6 @@ body{
     margin-bottom: 1vw;
     margin-left: 90vw;
 }
-.phone{
-    width: 50vw;
-    height: 100vw;
-    border: none;
-    margin-top:0vw;
-    margin-right: 0vw;
-    margin-bottom: 0vw;
-    margin-left: 30vw;  
-    position: fixed;
-  }
- iframe{
-    width: 50vw;
- }
-.telahome{
-    width: 65vw;
-    height: 110vw;
-    margin-left: 10vw;
-    margin-top: 10vw;
-    margin-right: 10vw;
-    margin-bottom:9vw;
-
-}
 .home :hover{
     transform: scale(1.2, 1.1);
 }
@@ -86,4 +64,14 @@ body{
 }
 .face :hover{
     transform: scale(1.2, 1.1);
+} 
+.phone>img{
+    width: 30vw;
+    height: 60vw;
+    margin-top: -30vw;
+    margin-right: 0%;
+    margin-bottom: 0vw;
+    margin-left: 30vw;
+    position: fixed;
 }
+
